@@ -18,6 +18,8 @@ import MetaMaskLogo from '../logos/metamask.svg';
 // @ts-ignore
 import NiftyWalletLogo from '../logos/niftyWallet.png';
 // @ts-ignore
+import OntoWalletLogo from '../logos/ontowallet.jpeg';
+// @ts-ignore
 import OperaLogo from '../logos/opera.svg';
 // @ts-ignore
 import SafeLogo from '../logos/safe.svg';
@@ -158,4 +160,12 @@ export const TOKENPOCKET: IProviderInfo = {
   logo: TokenPocketLogo,
   type: "injected",
   check: "isTokenPocket"
+};
+
+export const ONTOWALLET: IProviderInfo = {
+  id: "injected",
+  name: "ONTO Wallet",
+  logo: OntoWalletLogo,
+  type: "injected",
+  check: "isOntoWallet"
 };

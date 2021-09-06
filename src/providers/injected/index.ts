@@ -1,35 +1,36 @@
-import { IProviderInfo } from "../../helpers";
-
+import { IProviderInfo } from '../../helpers';
 // @ts-ignore
-import Web3DefaultLogo from "../logos/web3-default.svg";
+import CipherLogo from '../logos/cipher.svg';
 // @ts-ignore
-import MetaMaskLogo from "../logos/metamask.svg";
+import CoinbaseLogo from '../logos/coinbase.svg';
 // @ts-ignore
-import SafeLogo from "../logos/safe.svg";
+import DapperLogo from '../logos/dapper.png';
 // @ts-ignore
-import NiftyWalletLogo from "../logos/niftyWallet.png";
+import FrameLogo from '../logos/frame.svg';
 // @ts-ignore
-import TrustLogo from "../logos/trust.svg";
+import imTokenLogo from '../logos/imtoken.svg';
 // @ts-ignore
-import DapperLogo from "../logos/dapper.png";
+import LiqualityLogo from '../logos/liquality.png';
 // @ts-ignore
-import CoinbaseLogo from "../logos/coinbase.svg";
+import MathWalletLogo from '../logos/mathwallet.png';
 // @ts-ignore
-import CipherLogo from "../logos/cipher.svg";
+import MetaMaskLogo from '../logos/metamask.svg';
 // @ts-ignore
-import imTokenLogo from "../logos/imtoken.svg";
+import NiftyWalletLogo from '../logos/niftyWallet.png';
 // @ts-ignore
-import StatusLogo from "../logos/status.svg";
+import OperaLogo from '../logos/opera.svg';
 // @ts-ignore
-import TokenaryLogo from "../logos/tokenary.png";
+import SafeLogo from '../logos/safe.svg';
 // @ts-ignore
-import OperaLogo from "../logos/opera.svg";
+import StatusLogo from '../logos/status.svg';
 // @ts-ignore
-import FrameLogo from "../logos/frame.svg";
+import TokenaryLogo from '../logos/tokenary.png';
 // @ts-ignore
-import LiqualityLogo from "../logos/liquality.png";
+import TokenPocketLogo from '../logos/tokenpocket.png';
 // @ts-ignore
-import MathWalletLogo from "../logos/mathwallet.png";
+import TrustLogo from '../logos/trust.svg';
+// @ts-ignore
+import Web3DefaultLogo from '../logos/web3-default.svg';
 
 export const FALLBACK: IProviderInfo = {
   id: "injected",
@@ -149,4 +150,12 @@ export const MATHWALLET: IProviderInfo = {
   logo: MathWalletLogo,
   type: "injected",
   check: "isMathWallet"
+};
+
+export const TOKENPOCKET: IProviderInfo = {
+  id: "injected",
+  name: "TokenPocket",
+  logo: TokenPocketLogo,
+  type: "injected",
+  check: "isTokenPocket"
 };

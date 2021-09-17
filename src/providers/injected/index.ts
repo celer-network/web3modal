@@ -2,6 +2,8 @@ import { IProviderInfo } from '../../helpers';
 // @ts-ignore
 import CipherLogo from '../logos/cipher.svg';
 // @ts-ignore
+import Coin98WalletLogo from '../logos/coin98wallet.jpg';
+// @ts-ignore
 import CoinbaseLogo from '../logos/coinbase.svg';
 // @ts-ignore
 import DapperLogo from '../logos/dapper.png';
@@ -18,7 +20,7 @@ import MetaMaskLogo from '../logos/metamask.svg';
 // @ts-ignore
 import NiftyWalletLogo from '../logos/niftyWallet.png';
 // @ts-ignore
-import OntoWalletLogo from '../logos/ontowallet.jpeg';
+import OntoWalletLogo from '../logos/ontowallet.jpg';
 // @ts-ignore
 import OperaLogo from '../logos/opera.svg';
 // @ts-ignore
@@ -168,4 +170,12 @@ export const ONTOWALLET: IProviderInfo = {
   logo: OntoWalletLogo,
   type: "injected",
   check: "isOntoWallet"
+};
+
+export const COIN98WALLET: IProviderInfo = {
+  id: "injected",
+  name: "Coin98 Wallet",
+  logo: Coin98WalletLogo,
+  type: "injected",
+  check: "isCoin98Wallet"
 };

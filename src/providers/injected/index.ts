@@ -10,6 +10,8 @@ import DapperLogo from '../logos/dapper.png';
 // @ts-ignore
 import FrameLogo from '../logos/frame.svg';
 // @ts-ignore
+import GoPocketLogo from '../logos/gopocket.png';
+// @ts-ignore
 import imTokenLogo from '../logos/imtoken.svg';
 // @ts-ignore
 import LiqualityLogo from '../logos/liquality.png';
@@ -178,4 +180,12 @@ export const COIN98WALLET: IProviderInfo = {
   logo: Coin98WalletLogo,
   type: "injected",
   check: "isCoin98Wallet"
+};
+
+export const GOPOCKET: IProviderInfo = {
+  id: "injected",
+  name: "Go Pocket",
+  logo: GoPocketLogo,
+  type: "injected",
+  check: "isGoPocket"
 };

@@ -22,6 +22,8 @@ import MetaMaskLogo from '../logos/metamask.svg';
 // @ts-ignore
 import NiftyWalletLogo from '../logos/niftyWallet.png';
 // @ts-ignore
+import OkxWalletLogo from '../logos/okxWallet.svg';
+// @ts-ignore
 import OntoWalletLogo from '../logos/ontowallet.jpg';
 // @ts-ignore
 import OperaLogo from '../logos/opera.svg';
@@ -188,4 +190,12 @@ export const GOPOCKET: IProviderInfo = {
   logo: GoPocketLogo,
   type: "injected",
   check: "isGoPocket"
+};
+
+export const OKXWALLET: IProviderInfo = {
+  id: "injected",
+  name: "OKX Wallet",
+  logo: OkxWalletLogo,
+  type: "injected",
+  check: "isOkxWallet"
 };
